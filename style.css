@@ -3,3 +3,35 @@
 body * {
   box-sizing: border-box;
 }
+
+ul li {
+  margin: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.images-container img {
+  width: 20%;
+  margin: 2%;
+  height: 300px;
+  float: left;
+  border: 1px solid palevioletred;
+}
+
+.video-cover {
+  width: 600px;
+  height: 300px;
+  border: 1px solid palevioletred;
+  display: block;
+}
+
+.testimonials-switch li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+}
