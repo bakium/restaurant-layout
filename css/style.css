@@ -1,3 +1,4 @@
+
 /* Box Model Hack */
 * {
      box-sizing: border-box;
@@ -40,6 +41,7 @@ ul li {
 
 a {
      text-decoration: none;
+     color: #404161
 }
    
 /******************************************
@@ -59,9 +61,32 @@ select, a[role=button] {
 }
 
 /******************************************
-/* LAYOUT
+/* NAVIGATION
 /*******************************************/
 
+nav ul {
+     text-align: right;
+     margin-right: 5rem;
+     margin-bottom: 5rem;
+}
+
+nav a {
+     padding: 0.5rem;
+     font-weight: bold;
+     font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+}
+
+
+nav .fa-solid {
+     width: 20px;
+}
+
+
+nav :nth-last-child(2) .fa-solid {
+     width: 20px;
+     margin-left: 5rem;
+     margin-right: 1rem;
+}
 
 /******************************************
 /* LAYOUT
