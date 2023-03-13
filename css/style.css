@@ -33,6 +33,11 @@ h1, h2, h3, h4, h5, h6 {
      font-family: cursive;
 }
 
+ul {
+     margin: 0;
+     padding: 0;
+}
+
 ul li {
      margin: 0;
      display: inline-block;
@@ -43,7 +48,10 @@ a {
      text-decoration: none;
      color: #404161
 }
-   
+ 
+.fa-solid {
+     width: 20px;
+}
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -89,10 +97,45 @@ nav :nth-last-child(2) .fa-solid {
 }
 
 /******************************************
-/* LAYOUT
+/* Main
 /*******************************************/
 
+main {
+     background: url('../img/brooke-lark-08bOYnH_r_E-unsplash.jpg') right/100% no-repeat;
+     height: 500px;
+     padding: 3rem;
+}
 
+h1 {
+     width: 200px;
+     font-size: 2.5rem;
+}
+
+main form {
+     margin-bottom: 1rem;
+}
+main form input {
+     border: 1px solid #cfd4e3;
+     height: 2rem;
+     width: 15rem;
+     border-bottom: 1rem;
+}
+
+.socials a {
+     padding: 1rem;
+     padding-left: 0;
+     margin: 1rem;
+     margin-left: 0;
+}
+
+.socials .facebook {
+     width: 15px;
+}
+
+.socials .followers {
+     font-size: 80%;
+     margin-left: 0.5rem;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
