@@ -17,6 +17,31 @@
 	clear: both;
 }
 
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+     color: #404161;
+      /* font-size: 62.5%; */
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+     font-family: cursive;
+}
+
+ul li {
+     margin: 0;
+     display: inline-block;
+     list-style-type: none;
+}
+
+a {
+     text-decoration: none;
+}
+   
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -24,6 +49,18 @@
 body {
 
 }
+
+select, a[role=button] {
+     background-color: #ff8800;
+     border: 1px solid #f7d3a3;
+     padding: 0.4rem 0.8rem;
+     color: white;
+     border-radius: 5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
 
 
 /******************************************
@@ -34,3 +71,36 @@ body {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+
+
+.images-container img {
+     width: 20%;
+     margin: 2%;
+     height: 300px;
+     float: left;
+     border: 1px solid palevioletred;
+   }
+   
+   .video-cover {
+     width: 600px;
+     height: 300px;
+     border: 1px solid palevioletred;
+     display: block;
+   }
+   
+   .testimonials-switch li {
+     width: 1rem;
+     height: 1rem;
+     border-radius: 50%;
+     background-color: #ffdbb2;
+   }
+
+   .testimonials-switch li:nth-child(3) {
+     background-color: #ff8800;
+     border: 1px solid #ffc107;
+   }
+
+   .stars li {
+     color: #ffc107;
+   }
