@@ -4,6 +4,14 @@ body * {
   box-sizing: border-box;
 }
 
+html {
+  color: #404161;
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 10%;
+}
 ul li {
   margin: 0;
   display: inline-block;
