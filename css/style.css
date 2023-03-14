@@ -52,12 +52,20 @@ a {
 .fa-solid {
      width: 20px;
 }
+
 /******************************************
-/* BASE STYLES
+/* SHARED STYLES
 /*******************************************/
 
-body {
+h2 {
+     padding-top: 0;
+     margin-top: 0.5rem;
+     font-size: 2.5rem;
+}
 
+section > header > span, section > span {
+     color: #ff8800;
+     font-weight: bold;
 }
 
 select, a[role=button] {
@@ -66,6 +74,19 @@ select, a[role=button] {
      padding: 0.4rem 0.8rem;
      color: white;
      border-radius: 5%;
+}
+
+.round-switch li {
+     padding: 0;
+     width: 1rem;
+     height: 1rem;
+     border-radius: 50%;
+     background-color: #ffdbb2;
+}
+
+.round-switch li:nth-child(3) {
+     background-color: #ff8800;
+     border: 1px solid #ffc107;
 }
 
 /******************************************
@@ -137,7 +158,6 @@ main form input {
      margin-left: 0.5rem;
 }
 
-
 /******************************************
 /* SECONDARY
 /*******************************************/
@@ -149,7 +169,6 @@ main form input {
      background-position: center left -80%, right bottom -40%;
      height: 600px;
      padding: 3rem;
-     border: 1px solid red;
 }
 
 .secondary .innerContent {
@@ -160,17 +179,6 @@ main form input {
 
 .innerContent > * {
      padding: 0.5rem 0.5rem;
-}
-
-.innerContent > span {
-     color: #ff8800;
-     font-weight: bold;
-}
-
-.secondary h2 {
-     padding-top: 0;
-     margin-top: 0.5rem;
-     font-size: 2rem;
 }
 
 .container::after, .container::before {
@@ -184,20 +192,51 @@ h1 {
      font-size: 2.5rem;
 }
 
+
+/******************************************
+/* Third
+/*******************************************/
+
+.third {
+     margin-top: 3rem;
+     text-align: center;
+     min-height: 800px;
+}
+
+.line-switch {
+     margin-bottom: 1rem;
+     padding: 0.6rem 1rem;
+}
+
+.line-switch li {
+     border-bottom: 2px solid #cfd4e3;
+     padding: 0.6rem 1rem;
+}
+
+.line-switch li:first-child {
+     border-color: #ff8800;
+}
+
+.line-switch li:first-child a {
+     color: #ff8800;
+}
+
+.images-container {
+     width: 800px;
+}
+.images-container img {
+     width: 20%;
+     height: 200px;
+     margin: 10px;
+     float: left;
+}
+
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
 
-
-.images-container img {
-     width: 20%;
-     margin: 2%;
-     height: 300px;
-     float: left;
-     border: 1px solid palevioletred;
-}
-   
    .video-cover {
      width: 600px;
      height: 300px;
@@ -205,18 +244,6 @@ h1 {
      display: block;
    }
    
-   .testimonials-switch li {
-     width: 1rem;
-     height: 1rem;
-     border-radius: 50%;
-     background-color: #ffdbb2;
-   }
-
-   .testimonials-switch li:nth-child(3) {
-     background-color: #ff8800;
-     border: 1px solid #ffc107;
-   }
-
-   .stars li {
+   .stars li  {
      color: #ffc107;
    }
